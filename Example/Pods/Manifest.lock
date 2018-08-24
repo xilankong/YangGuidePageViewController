@@ -1,0 +1,16 @@
+PODS:
+  - YangGuidePageViewController (0.1.0)
+
+DEPENDENCIES:
+  - YangGuidePageViewController (from `../`)
+
+EXTERNAL SOURCES:
+  YangGuidePageViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YangGuidePageViewController: 2f4ce4ba93c651dddd8ddd27d71a1d3eb74ce7ca
+
+PODFILE CHECKSUM: 8bf9294505cd26dfdcacbc3a1012a572a8e4f87e
+
+COCOAPODS: 1.5.0

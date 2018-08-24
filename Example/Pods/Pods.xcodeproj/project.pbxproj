@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17ED984731DC2DB50514519E1C8A95C6 /* YangGuidePageViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A639FF3F1E50E261BCF6908B80E1EAFA /* YangGuidePageViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B02D44C8AF604BD8388306D404383A8 /* Pods-YangGuidePageViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C67B5BAD8EF2322BF20FAED19D48DE88 /* Pods-YangGuidePageViewController_Example-dummy.m */; };
+		58670C20B7B697577D11E708695B2855 /* Pods-YangGuidePageViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6F184C25443A12BA15F2AEE859324FE /* Pods-YangGuidePageViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77DB4E0E67E89B67C4B53EFA3CA4CC6C /* Pods-YangGuidePageViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F00623F8FB545FC1B645D2AADD200A48 /* Pods-YangGuidePageViewController_Tests-dummy.m */; };
+		81724B38AFDA7124B0620842F6A4C76C /* YangPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D18E0F7B7D2FE4AF0E2E6A4412EE089 /* YangPageControl.swift */; };
+		885F59E0851360D699A7763DE9A6E443 /* YangGuidePageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1657DC643EC3AC3F72C99F3E0E032CC /* YangGuidePageViewController-dummy.m */; };
+		9E9105D8429A00874F2135227ECCBCBF /* YangGuidPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26D0AFA0E0EB72F5C8DF51D8EC0F6EE /* YangGuidPageViewController.swift */; };
+		BA841170C5365031D038EF3B74ECE212 /* Pods-YangGuidePageViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DDB5D7BEE6972F355F7A23331331E51 /* Pods-YangGuidePageViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB1DCDCDB3D39824558C0A49890B448F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E5F68F7A5704CF1D3E48A52D6617F758 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E7359F4E6C98BC563EC171BE20405409 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45CB63230C90173FD06CCA5BFE146206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C24C3583481B94428D6525371341270;
+			remoteInfo = YangGuidePageViewController;
+		};
+		C7BE0756C4D925DBBD0F74A3FCC45B96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E21A4B2EBB9BC7BA6BC568DA650B74C;
+			remoteInfo = "Pods-YangGuidePageViewController_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		104EBB27341EF7284EBD43E480EF678B /* Pods-YangGuidePageViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YangGuidePageViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		12C627FD85D9D54CFBD1057FC7BB0F46 /* Pods-YangGuidePageViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YangGuidePageViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1DA48ED81FE3CFF2511A9C6542D492DA /* Pods-YangGuidePageViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YangGuidePageViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		24F73AD32439C8ACEC985DF945533CA2 /* Pods-YangGuidePageViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YangGuidePageViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3D6158376DF79039659E2B6E420C2294 /* YangGuidePageViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YangGuidePageViewController-prefix.pch"; sourceTree = "<group>"; };
+		46C90AA4266843AA76EEB8AB2A13FD35 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		590EC9D7E55E101A03D660B6021FF678 /* YangGuidePageViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YangGuidePageViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5D18E0F7B7D2FE4AF0E2E6A4412EE089 /* YangPageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YangPageControl.swift; path = YangGuidePageViewController/Classes/YangPageControl.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7590FB6176E4CC9A238B1DF578FC2597 /* Pods-YangGuidePageViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YangGuidePageViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7997F2EEF06E305047CB52ACC9ED438F /* Pods-YangGuidePageViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YangGuidePageViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7C1EE349BDDF891BD571C179D18CE87F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		81AC9AFC4120BCBCC61C39DEB9C71A5B /* Pods-YangGuidePageViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YangGuidePageViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		843316BD284778B1335D8CC3DF436766 /* Pods-YangGuidePageViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YangGuidePageViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96EB78EADEE95642C6F149F03230AB4E /* Pods_YangGuidePageViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YangGuidePageViewController_Tests.framework; path = "Pods-YangGuidePageViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DDB5D7BEE6972F355F7A23331331E51 /* Pods-YangGuidePageViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YangGuidePageViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A4CAFF92DE22EF36158931E53F478369 /* Pods-YangGuidePageViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YangGuidePageViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A639FF3F1E50E261BCF6908B80E1EAFA /* YangGuidePageViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YangGuidePageViewController-umbrella.h"; sourceTree = "<group>"; };
+		A68913C612901A081808CEA97285CE73 /* Pods_YangGuidePageViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YangGuidePageViewController_Example.framework; path = "Pods-YangGuidePageViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB06E6A71ADF5E3AEF56ED7DE13D05CD /* YangGuidePageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YangGuidePageViewController.framework; path = YangGuidePageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5AB500DBF17B2772F48FD87055040C2 /* YangGuidePageViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YangGuidePageViewController.xcconfig; sourceTree = "<group>"; };
+		B92F1DC797ED8F5D385275A2A81CE435 /* Pods-YangGuidePageViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YangGuidePageViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		B9E83D557F8C74C38D412CB60C6BAF2D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B9ECF7AD630CDA79D3F9AC8B2306008E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C67B5BAD8EF2322BF20FAED19D48DE88 /* Pods-YangGuidePageViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YangGuidePageViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		CCABB38CA3E5DB017F3DFF136C9E17BA /* Pods-YangGuidePageViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YangGuidePageViewController_Example.modulemap"; sourceTree = "<group>"; };
+		CE9A99C0C5BF88F5F604BD752A54919B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1657DC643EC3AC3F72C99F3E0E032CC /* YangGuidePageViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YangGuidePageViewController-dummy.m"; sourceTree = "<group>"; };
+		D5764C14033840E18C34F19881CF276D /* Pods-YangGuidePageViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YangGuidePageViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		E6F184C25443A12BA15F2AEE859324FE /* Pods-YangGuidePageViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YangGuidePageViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		F00623F8FB545FC1B645D2AADD200A48 /* Pods-YangGuidePageViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YangGuidePageViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		F26D0AFA0E0EB72F5C8DF51D8EC0F6EE /* YangGuidPageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YangGuidPageViewController.swift; path = YangGuidePageViewController/Classes/YangGuidPageViewController.swift; sourceTree = "<group>"; };
+		F6EC45FF76255DEF09714378C5E61CD8 /* Pods-YangGuidePageViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YangGuidePageViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F7DF47EB40F8B5DBBE37BE72BD6F5514 /* YangGuidePageViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YangGuidePageViewController.modulemap; sourceTree = "<group>"; };
+		F9A540E2DEB62F494D5250A628614A75 /* Pods-YangGuidePageViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YangGuidePageViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		458BEFDB374C0FAB39C4D91EFE7DD3DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7359F4E6C98BC563EC171BE20405409 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		471385A35A8A995EF3C7963E4DCDCE81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1DCDCDB3D39824558C0A49890B448F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		809BE51B02CC6D6C2871EE3191C04679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5F68F7A5704CF1D3E48A52D6617F758 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181FB725FBE8CDE53FEA0F1BF0B0E505 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A68913C612901A081808CEA97285CE73 /* Pods_YangGuidePageViewController_Example.framework */,
+				96EB78EADEE95642C6F149F03230AB4E /* Pods_YangGuidePageViewController_Tests.framework */,
+				AB06E6A71ADF5E3AEF56ED7DE13D05CD /* YangGuidePageViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BEDBE4A744EE1EDBA1F29B0CC3FCD9E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F6281C6B47E767ED5E3175055A4E074 /* YangGuidePageViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2F6281C6B47E767ED5E3175055A4E074 /* YangGuidePageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F26D0AFA0E0EB72F5C8DF51D8EC0F6EE /* YangGuidPageViewController.swift */,
+				5D18E0F7B7D2FE4AF0E2E6A4412EE089 /* YangPageControl.swift */,
+				9F1B5EB049C6BF3C24246A861290264C /* Pod */,
+				336877A1E0EB6F3BE29B472CBFC54AAB /* Support Files */,
+			);
+			name = YangGuidePageViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		336877A1E0EB6F3BE29B472CBFC54AAB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46C90AA4266843AA76EEB8AB2A13FD35 /* Info.plist */,
+				F7DF47EB40F8B5DBBE37BE72BD6F5514 /* YangGuidePageViewController.modulemap */,
+				B5AB500DBF17B2772F48FD87055040C2 /* YangGuidePageViewController.xcconfig */,
+				D1657DC643EC3AC3F72C99F3E0E032CC /* YangGuidePageViewController-dummy.m */,
+				3D6158376DF79039659E2B6E420C2294 /* YangGuidePageViewController-prefix.pch */,
+				A639FF3F1E50E261BCF6908B80E1EAFA /* YangGuidePageViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YangGuidePageViewController";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1BEDBE4A744EE1EDBA1F29B0CC3FCD9E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				181FB725FBE8CDE53FEA0F1BF0B0E505 /* Products */,
+				FE59C5DB32813ABE0B58A74F49803DE7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81A414D329A9E9EB395FC0FD2EF753E8 /* Pods-YangGuidePageViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CE9A99C0C5BF88F5F604BD752A54919B /* Info.plist */,
+				B92F1DC797ED8F5D385275A2A81CE435 /* Pods-YangGuidePageViewController_Tests.modulemap */,
+				F9A540E2DEB62F494D5250A628614A75 /* Pods-YangGuidePageViewController_Tests-acknowledgements.markdown */,
+				104EBB27341EF7284EBD43E480EF678B /* Pods-YangGuidePageViewController_Tests-acknowledgements.plist */,
+				F00623F8FB545FC1B645D2AADD200A48 /* Pods-YangGuidePageViewController_Tests-dummy.m */,
+				7997F2EEF06E305047CB52ACC9ED438F /* Pods-YangGuidePageViewController_Tests-frameworks.sh */,
+				81AC9AFC4120BCBCC61C39DEB9C71A5B /* Pods-YangGuidePageViewController_Tests-resources.sh */,
+				9DDB5D7BEE6972F355F7A23331331E51 /* Pods-YangGuidePageViewController_Tests-umbrella.h */,
+				1DA48ED81FE3CFF2511A9C6542D492DA /* Pods-YangGuidePageViewController_Tests.debug.xcconfig */,
+				F6EC45FF76255DEF09714378C5E61CD8 /* Pods-YangGuidePageViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-YangGuidePageViewController_Tests";
+			path = "Target Support Files/Pods-YangGuidePageViewController_Tests";
+			sourceTree = "<group>";
+		};
+		9F1B5EB049C6BF3C24246A861290264C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7C1EE349BDDF891BD571C179D18CE87F /* LICENSE */,
+				B9E83D557F8C74C38D412CB60C6BAF2D /* README.md */,
+				590EC9D7E55E101A03D660B6021FF678 /* YangGuidePageViewController.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C30685F5A71543DA00E8C26EE0173172 /* Pods-YangGuidePageViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B9ECF7AD630CDA79D3F9AC8B2306008E /* Info.plist */,
+				CCABB38CA3E5DB017F3DFF136C9E17BA /* Pods-YangGuidePageViewController_Example.modulemap */,
+				12C627FD85D9D54CFBD1057FC7BB0F46 /* Pods-YangGuidePageViewController_Example-acknowledgements.markdown */,
+				24F73AD32439C8ACEC985DF945533CA2 /* Pods-YangGuidePageViewController_Example-acknowledgements.plist */,
+				C67B5BAD8EF2322BF20FAED19D48DE88 /* Pods-YangGuidePageViewController_Example-dummy.m */,
+				7590FB6176E4CC9A238B1DF578FC2597 /* Pods-YangGuidePageViewController_Example-frameworks.sh */,
+				D5764C14033840E18C34F19881CF276D /* Pods-YangGuidePageViewController_Example-resources.sh */,
+				E6F184C25443A12BA15F2AEE859324FE /* Pods-YangGuidePageViewController_Example-umbrella.h */,
+				843316BD284778B1335D8CC3DF436766 /* Pods-YangGuidePageViewController_Example.debug.xcconfig */,
+				A4CAFF92DE22EF36158931E53F478369 /* Pods-YangGuidePageViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-YangGuidePageViewController_Example";
+			path = "Target Support Files/Pods-YangGuidePageViewController_Example";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FE59C5DB32813ABE0B58A74F49803DE7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C30685F5A71543DA00E8C26EE0173172 /* Pods-YangGuidePageViewController_Example */,
+				81A414D329A9E9EB395FC0FD2EF753E8 /* Pods-YangGuidePageViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0E103D41CCF82EF94A45042AD7F71B0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58670C20B7B697577D11E708695B2855 /* Pods-YangGuidePageViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73FFF1E6CF55F0962A346F403863F26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA841170C5365031D038EF3B74ECE212 /* Pods-YangGuidePageViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA59CF5267490E4CBDFB12C4CD1D394B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17ED984731DC2DB50514519E1C8A95C6 /* YangGuidePageViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		445631AAD280D42B6F5673C2349A61EA /* Pods-YangGuidePageViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58A30AFC0FF7EDC9BB3137F7A3B8E11F /* Build configuration list for PBXNativeTarget "Pods-YangGuidePageViewController_Tests" */;
+			buildPhases = (
+				DBBD7657B2BA9879DA1122EE4F311AA7 /* Sources */,
+				809BE51B02CC6D6C2871EE3191C04679 /* Frameworks */,
+				A73FFF1E6CF55F0962A346F403863F26 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30301988DAB1DCE5A6907BF0884D9340 /* PBXTargetDependency */,
+			);
+			name = "Pods-YangGuidePageViewController_Tests";
+			productName = "Pods-YangGuidePageViewController_Tests";
+			productReference = 96EB78EADEE95642C6F149F03230AB4E /* Pods_YangGuidePageViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5C24C3583481B94428D6525371341270 /* YangGuidePageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21CB52D602AC4FE6C58787EE1D5A45B5 /* Build configuration list for PBXNativeTarget "YangGuidePageViewController" */;
+			buildPhases = (
+				8347CB5379DF4DC1D89FF69699AFF4AB /* Sources */,
+				458BEFDB374C0FAB39C4D91EFE7DD3DC /* Frameworks */,
+				FA59CF5267490E4CBDFB12C4CD1D394B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YangGuidePageViewController;
+			productName = YangGuidePageViewController;
+			productReference = AB06E6A71ADF5E3AEF56ED7DE13D05CD /* YangGuidePageViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E21A4B2EBB9BC7BA6BC568DA650B74C /* Pods-YangGuidePageViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418CC2D47E89E72F87339EB6907AEDF4 /* Build configuration list for PBXNativeTarget "Pods-YangGuidePageViewController_Example" */;
+			buildPhases = (
+				4A471AC77D39C6E9DA713133C47F76E8 /* Sources */,
+				471385A35A8A995EF3C7963E4DCDCE81 /* Frameworks */,
+				0E103D41CCF82EF94A45042AD7F71B0F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DF8A299BC8EAA3D1C5F9BA9F3B4CDA4 /* PBXTargetDependency */,
+			);
+			name = "Pods-YangGuidePageViewController_Example";
+			productName = "Pods-YangGuidePageViewController_Example";
+			productReference = A68913C612901A081808CEA97285CE73 /* Pods_YangGuidePageViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 181FB725FBE8CDE53FEA0F1BF0B0E505 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E21A4B2EBB9BC7BA6BC568DA650B74C /* Pods-YangGuidePageViewController_Example */,
+				445631AAD280D42B6F5673C2349A61EA /* Pods-YangGuidePageViewController_Tests */,
+				5C24C3583481B94428D6525371341270 /* YangGuidePageViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A471AC77D39C6E9DA713133C47F76E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B02D44C8AF604BD8388306D404383A8 /* Pods-YangGuidePageViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8347CB5379DF4DC1D89FF69699AFF4AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885F59E0851360D699A7763DE9A6E443 /* YangGuidePageViewController-dummy.m in Sources */,
+				9E9105D8429A00874F2135227ECCBCBF /* YangGuidPageViewController.swift in Sources */,
+				81724B38AFDA7124B0620842F6A4C76C /* YangPageControl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBD7657B2BA9879DA1122EE4F311AA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77DB4E0E67E89B67C4B53EFA3CA4CC6C /* Pods-YangGuidePageViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DF8A299BC8EAA3D1C5F9BA9F3B4CDA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YangGuidePageViewController;
+			target = 5C24C3583481B94428D6525371341270 /* YangGuidePageViewController */;
+			targetProxy = 45CB63230C90173FD06CCA5BFE146206 /* PBXContainerItemProxy */;
+		};
+		30301988DAB1DCE5A6907BF0884D9340 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YangGuidePageViewController_Example";
+			target = 8E21A4B2EBB9BC7BA6BC568DA650B74C /* Pods-YangGuidePageViewController_Example */;
+			targetProxy = C7BE0756C4D925DBBD0F74A3FCC45B96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		52EE7BAECD3F8B1DBE8DB2CFD33233D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DA48ED81FE3CFF2511A9C6542D492DA /* Pods-YangGuidePageViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YangGuidePageViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YangGuidePageViewController_Tests/Pods-YangGuidePageViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55F318D4031F054386263B0EA7544997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6EC45FF76255DEF09714378C5E61CD8 /* Pods-YangGuidePageViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YangGuidePageViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YangGuidePageViewController_Tests/Pods-YangGuidePageViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		614ABD8716DF3C29D17546A735D09885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5AB500DBF17B2772F48FD87055040C2 /* YangGuidePageViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YangGuidePageViewController/YangGuidePageViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YangGuidePageViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YangGuidePageViewController/YangGuidePageViewController.modulemap";
+				PRODUCT_MODULE_NAME = YangGuidePageViewController;
+				PRODUCT_NAME = YangGuidePageViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BC9FA84DDA095C3A58F1FA362AA55B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4CAFF92DE22EF36158931E53F478369 /* Pods-YangGuidePageViewController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YangGuidePageViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YangGuidePageViewController_Example/Pods-YangGuidePageViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C76EB804D69DD2187F96D54A822D122A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 843316BD284778B1335D8CC3DF436766 /* Pods-YangGuidePageViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YangGuidePageViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YangGuidePageViewController_Example/Pods-YangGuidePageViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E1CFAD492C7253F7D1A47A2CD08899A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5AB500DBF17B2772F48FD87055040C2 /* YangGuidePageViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YangGuidePageViewController/YangGuidePageViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YangGuidePageViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YangGuidePageViewController/YangGuidePageViewController.modulemap";
+				PRODUCT_MODULE_NAME = YangGuidePageViewController;
+				PRODUCT_NAME = YangGuidePageViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21CB52D602AC4FE6C58787EE1D5A45B5 /* Build configuration list for PBXNativeTarget "YangGuidePageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614ABD8716DF3C29D17546A735D09885 /* Debug */,
+				E1CFAD492C7253F7D1A47A2CD08899A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		418CC2D47E89E72F87339EB6907AEDF4 /* Build configuration list for PBXNativeTarget "Pods-YangGuidePageViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76EB804D69DD2187F96D54A822D122A /* Debug */,
+				BC9FA84DDA095C3A58F1FA362AA55B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58A30AFC0FF7EDC9BB3137F7A3B8E11F /* Build configuration list for PBXNativeTarget "Pods-YangGuidePageViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EE7BAECD3F8B1DBE8DB2CFD33233D7 /* Debug */,
+				55F318D4031F054386263B0EA7544997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

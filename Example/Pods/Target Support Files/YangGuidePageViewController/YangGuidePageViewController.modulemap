@@ -1,0 +1,6 @@
+framework module YangGuidePageViewController {
+  umbrella header "YangGuidePageViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
