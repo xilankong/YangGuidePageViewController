@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YangGuidePageViewController_Example' do
+  pod 'YangGuidePageViewController', :path => '../'
+
+  target 'YangGuidePageViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
