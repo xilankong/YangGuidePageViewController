@@ -27,3 +27,4 @@ xilankong, young.huang@jfz.com
 ## License
 
 YangGuidePageViewController is available under the MIT license. See the LICENSE file for more info.
+# YangGuidePageViewController
