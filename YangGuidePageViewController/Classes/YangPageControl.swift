@@ -139,7 +139,7 @@ public class YangPageControl: UIView {
         numberOfPages = number
         
         for i in 0..<numberOfPages {
-            let btn = UIButton(type: UIButtonType.custom)
+            let btn = UIButton(type: .custom)
             btn.frame = CGRect(x: dotSize.width * CGFloat(i) + dotMargin * CGFloat(i), y: 0, width: dotSize.width, height: dotSize.height)
             btn.tag = i
             btn.addTarget(self, action: #selector(dotClickAction(btn:)), for: .touchUpInside)
@@ -170,15 +170,15 @@ extension YangPageControl {
                 if let currentButton = view as? UIButton {
                     if !dotArray.isEmpty && index < dotArray.count {
                         let dot = dotArray[index]
-                        currentButton.setBackgroundImage(dot.dotSelectedImage, for: UIControlState.normal)
-                        currentButton.setBackgroundImage(dot.dotSelectedImage, for: UIControlState.highlighted)
+                        currentButton.setBackgroundImage(dot.dotSelectedImage, for: .normal)
+                        currentButton.setBackgroundImage(dot.dotSelectedImage, for: .highlighted)
                     } else if let currentImage = dotSelectedImage {
-                        currentButton.setBackgroundImage(currentImage, for: UIControlState.normal)
-                        currentButton.setBackgroundImage(currentImage, for: UIControlState.highlighted)
+                        currentButton.setBackgroundImage(currentImage, for: .normal)
+                        currentButton.setBackgroundImage(currentImage, for: .highlighted)
                         currentButton.backgroundColor = nil
                     } else {
-                        currentButton.setBackgroundImage(nil, for: UIControlState.normal)
-                        currentButton.setBackgroundImage(nil, for: UIControlState.highlighted)
+                        currentButton.setBackgroundImage(nil, for: .normal)
+                        currentButton.setBackgroundImage(nil, for: .highlighted)
                         currentButton.backgroundColor = dotSelectedTintColor
                     }
                 }
@@ -186,15 +186,15 @@ extension YangPageControl {
                 if let dotButton = view as? UIButton {
                     if !dotArray.isEmpty && index < dotArray.count  {
                         let dot = dotArray[index]
-                        dotButton.setBackgroundImage(dot.dotImage, for: UIControlState.normal)
-                        dotButton.setBackgroundImage(dot.dotImage, for: UIControlState.highlighted)
+                        dotButton.setBackgroundImage(dot.dotImage, for: .normal)
+                        dotButton.setBackgroundImage(dot.dotImage, for: .highlighted)
                     } else if let dotImage = dotImage {
-                        dotButton.setBackgroundImage(dotImage, for: UIControlState.normal)
-                        dotButton.setBackgroundImage(dotImage, for: UIControlState.highlighted)
+                        dotButton.setBackgroundImage(dotImage, for: .normal)
+                        dotButton.setBackgroundImage(dotImage, for: .highlighted)
                         dotButton.backgroundColor = nil
                     } else {
-                        dotButton.setBackgroundImage(nil, for: UIControlState.normal)
-                        dotButton.setBackgroundImage(nil, for: UIControlState.highlighted)
+                        dotButton.setBackgroundImage(nil, for: .normal)
+                        dotButton.setBackgroundImage(nil, for: .highlighted)
                         dotButton.backgroundColor = dotTintColor
                     }
                 }

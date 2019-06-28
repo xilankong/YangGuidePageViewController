@@ -54,6 +54,8 @@ open class YangGuidPageViewController: UIViewController {
     
     public var currentPage: Int = 0
     
+    public var showPageDot: Bool = false
+    
     public var pageControl: YangPageControl?
     
     public var guidPages: [YangGuidPageView] = []
@@ -92,10 +94,12 @@ open class YangGuidPageViewController: UIViewController {
             scrollView.contentSize = CGSize(width: self.view.frame.size.width * CGFloat(index + 1), height: self.view.frame.size.height)
         }
         
-        pageControl = YangPageControl(withNumberOfPages: self.guidPages.count)
-        pageControl?.center = CGPoint(x: view.center.x, y: view.frame.size.height - 40)
-        pageControl?.delegate = self
-        view.addSubview(pageControl!)
+        if showPageDot {
+            pageControl = YangPageControl(withNumberOfPages: self.guidPages.count)
+            pageControl?.center = CGPoint(x: view.center.x, y: view.frame.size.height - 40)
+            pageControl?.delegate = self
+            view.addSubview(pageControl!)
+        }
     }
 
 }

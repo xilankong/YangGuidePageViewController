@@ -44,24 +44,24 @@
 		24F73AD32439C8ACEC985DF945533CA2 /* Pods-YangGuidePageViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YangGuidePageViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3D6158376DF79039659E2B6E420C2294 /* YangGuidePageViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YangGuidePageViewController-prefix.pch"; sourceTree = "<group>"; };
 		46C90AA4266843AA76EEB8AB2A13FD35 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		590EC9D7E55E101A03D660B6021FF678 /* YangGuidePageViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YangGuidePageViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		590EC9D7E55E101A03D660B6021FF678 /* YangGuidePageViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = YangGuidePageViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5D18E0F7B7D2FE4AF0E2E6A4412EE089 /* YangPageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YangPageControl.swift; path = YangGuidePageViewController/Classes/YangPageControl.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7590FB6176E4CC9A238B1DF578FC2597 /* Pods-YangGuidePageViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YangGuidePageViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7997F2EEF06E305047CB52ACC9ED438F /* Pods-YangGuidePageViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YangGuidePageViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		7C1EE349BDDF891BD571C179D18CE87F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7C1EE349BDDF891BD571C179D18CE87F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		81AC9AFC4120BCBCC61C39DEB9C71A5B /* Pods-YangGuidePageViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YangGuidePageViewController_Tests-resources.sh"; sourceTree = "<group>"; };
 		843316BD284778B1335D8CC3DF436766 /* Pods-YangGuidePageViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YangGuidePageViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96EB78EADEE95642C6F149F03230AB4E /* Pods_YangGuidePageViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YangGuidePageViewController_Tests.framework; path = "Pods-YangGuidePageViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96EB78EADEE95642C6F149F03230AB4E /* Pods_YangGuidePageViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YangGuidePageViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DDB5D7BEE6972F355F7A23331331E51 /* Pods-YangGuidePageViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YangGuidePageViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A4CAFF92DE22EF36158931E53F478369 /* Pods-YangGuidePageViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YangGuidePageViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A639FF3F1E50E261BCF6908B80E1EAFA /* YangGuidePageViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YangGuidePageViewController-umbrella.h"; sourceTree = "<group>"; };
-		A68913C612901A081808CEA97285CE73 /* Pods_YangGuidePageViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YangGuidePageViewController_Example.framework; path = "Pods-YangGuidePageViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB06E6A71ADF5E3AEF56ED7DE13D05CD /* YangGuidePageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YangGuidePageViewController.framework; path = YangGuidePageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A68913C612901A081808CEA97285CE73 /* Pods_YangGuidePageViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YangGuidePageViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB06E6A71ADF5E3AEF56ED7DE13D05CD /* YangGuidePageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YangGuidePageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5AB500DBF17B2772F48FD87055040C2 /* YangGuidePageViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YangGuidePageViewController.xcconfig; sourceTree = "<group>"; };
 		B92F1DC797ED8F5D385275A2A81CE435 /* Pods-YangGuidePageViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YangGuidePageViewController_Tests.modulemap"; sourceTree = "<group>"; };
-		B9E83D557F8C74C38D412CB60C6BAF2D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B9E83D557F8C74C38D412CB60C6BAF2D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B9ECF7AD630CDA79D3F9AC8B2306008E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C67B5BAD8EF2322BF20FAED19D48DE88 /* Pods-YangGuidePageViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YangGuidePageViewController_Example-dummy.m"; sourceTree = "<group>"; };
 		CCABB38CA3E5DB017F3DFF136C9E17BA /* Pods-YangGuidePageViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YangGuidePageViewController_Example.modulemap"; sourceTree = "<group>"; };
@@ -327,6 +327,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -478,7 +479,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -701,7 +702,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
